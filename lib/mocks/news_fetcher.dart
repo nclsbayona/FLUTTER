@@ -6,7 +6,7 @@ import '../models/article_body.dart';
 class ForNewsAPI {
   final String country = "co";
   final String apiKey = "";
-  final String apiUrl;
+  late final String apiUrl;
   int val = 0;
   List<Article>? news;
   ForNewsAPI(
